@@ -2,19 +2,18 @@ body {
     text-align: center;
 }
 
-.table {
-    /* border: 1px solid black; */
-    border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
+.boom {
+    background-color: rgb(255, 148, 49);
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
 }
 
 .hidden {
     background-color: rgb(243, 243, 243);
-}
-
-.shown {
-    background-color: rgb(209, 209, 209);
+    cursor: pointer;
 }
 
 .mine-field td {
@@ -22,4 +21,21 @@ body {
     height:40px;
     text-align: center;
     font-size:1.4em;
+}
+
+.shown {
+    background-color: rgb(209, 209, 209);
+}
+
+.smiley {
+    font-size: xxx-large;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.table {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
 }
